@@ -1,0 +1,220 @@
+@media screen and (max-width: 500px) {
+    .pt2 {
+      padding: 20px 30px;
+      margin-top: 20%;
+      align-items: center;
+      display:inline-flex;
+    }
+    .pt2-left {
+      margin-top: -20%;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+    }
+    .pt2-left img {
+        width: 30%;
+        animation: none;
+    }
+    
+    #pt3 {
+      padding: 20px 30px;
+      display:inline-flex;
+    }
+    .pt3-rigth {
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+    }
+    #pt4 {
+      padding: 20px 30px;
+      display: list-item;
+    }
+    .pt4-left {
+      width: 100%;
+      text-align: center;
+      display:inline-flex;
+    }
+      #FlorB{
+    width: 70%;
+      }
+    #FlorB_{
+      text-align: right;
+      width: 30%;
+    }
+      
+    #bee{
+        width: 70%;
+        animation: none;
+    }
+
+    
+    #container1 {
+      background-color: rgb(33, 48, 37);
+      background: linear-gradient(to bottom, rgb(33, 48, 37), #084618,);
+      display:inline-flex;
+      margin: 0;
+  
+    }
+    .flortext{
+        color: rgb(37, 59, 48);
+        font-family: 'Fredoka';
+        letter-spacing: 2px;
+        font-size: 50%;
+    }
+    
+    .comprar{
+        color: blue;
+        cursor: pointer;
+        text-decoration: underline;
+        font-family: 'Alfa';
+        font-size: 30%;
+    }
+    
+    #flor1 {
+      background-color: rgb(173, 189, 173);
+      background-size: cover;
+      border-radius: 60%;
+      margin: 5px;
+      text-align: center;
+    }
+    .flor1foto img {
+      width: 50%;
+      text-align: center;
+      margin: 10%;
+      margin-top: 17%;
+      border-radius: 1000px;
+    }
+    
+    #flor2 {
+        background-color: rgb(173, 189, 173);
+        background-size: cover;
+        border-radius: 60%;
+        margin: 5px;
+        text-align: center;
+    }
+    .flor2foto img {
+        width: 50%;
+        text-align: center;
+        margin: 10%;
+        margin-top: 17%;
+        border-radius: 1000px;
+    }
+    
+    #flor3 {
+        background-color: rgb(173, 189, 173);
+        background-size: cover;
+        border-radius: 60%;
+        margin: 5px;
+        text-align: center;
+    }
+    .flor3foto img {
+        width: 50%;
+        text-align: center;
+        margin: 10%;
+        margin-top: 17%;
+        border-radius: 1000px;
+    }
+    #container2 {
+      background-color: rgb(33, 48, 37);
+      margin: 0;
+      display:inline-flex;
+      
+    }
+    
+    #flor4 {
+        background-color: rgb(173, 189, 173);
+        background-size: cover;
+        border-radius: 60%;
+        margin: 5px;
+        text-align: center;
+    }
+    .flor4foto img {
+        width: 50%;
+        text-align: center;
+        margin: 10%;
+        margin-top: 17%;
+        border-radius: 1000px;
+    }
+    
+    #flor5 {
+        background-color: rgb(173, 189, 173);
+        background-size: cover;
+        border-radius: 60%;
+        margin: 5px;
+        text-align: center;
+    }
+    .flor5foto img {
+        width: 50%;
+        text-align: center;
+        margin: 10%;
+        margin-top: 17%;
+        border-radius: 1000px;
+    }
+    
+    #flor6 {
+        background-color: rgb(173, 189, 173);
+        background-size: cover;
+        border-radius: 60%;
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .flor6foto img {
+        width: 50%;
+        text-align: center;
+        margin: 10%;
+        margin-top: 17%;
+        border-radius: 1000px;
+    }
+    #container3 {
+      background-color: rgb(33, 48, 37);
+      background: linear-gradient(to bottom, rgb(33, 48, 37), #000);
+      display:inline-flex;
+    }
+    #flor7 {
+      background-color: rgb(173, 189, 173);
+      background-size: cover;
+      border-radius: 60%;
+      margin: 5px;
+      text-align: center;
+    }
+    .flor7foto img {
+      width: 50%;
+      text-align: center;
+      margin: 10%;
+      margin-top: 17%;
+      border-radius: 1000px;
+    }
+    
+    #flor8 {
+      background-color: rgb(173, 189, 173);
+      background-size: cover;
+      border-radius: 60%;
+      margin: 5px;
+      text-align: center;
+    }
+    
+    .flor8foto img {
+      width: 50%;
+      text-align: center;
+      margin: 10%;
+      margin-top: 17%;
+      border-radius: 1000px;
+    }
+    
+    #flor9 {
+      background-color: rgb(173, 189, 173);
+      background-size: cover;
+      border-radius: 60%;
+      margin: 5px;
+      text-align: center;
+    }
+    
+    .flor9foto img {
+      width: 50%;
+      text-align: center;
+      margin: 10%;
+      margin-top: 17%;
+      border-radius: 1000px;
+    }
+}
