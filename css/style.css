@@ -1,0 +1,349 @@
+:root {
+  --hero-image: url(../img/Folhagem.jpg);
+}
+html{background-color: #10290d;}
+body {
+  margin: 0;
+}
+
+
+nav {
+  display: flex;
+  background: linear-gradient(to bottom, #084618, rgb(33, 48, 37));
+  padding: 20px;
+  column-gap: 10px;
+  align-items: center;
+}
+
+nav span {
+  color: white;
+  font-family: 'Pacifico';
+  letter-spacing: 2px;
+  font-size: 150%;
+}
+
+nav a:first-of-type {
+  margin-left: auto;
+}
+
+nav a {
+  color: white;
+  font-family: 'Fredoka';
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c5eff7;
+}
+
+#hero {
+  background: linear-gradient(rgba(7, 61, 16, 0.6), rgba(0, 0, 0, 0.6)),
+  var(--hero-image);
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 20px;
+}
+
+.text-pt1 {
+  margin-top: 10%;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  font-family: 'Fredoka';
+  letter-spacing: 2px;
+
+  
+}
+
+.pt2 {
+  padding: 20px 30px;
+  display: flex;
+  margin-top: 20%;
+}
+
+.pt2-rigth {
+  color: rgb(255, 255, 255);
+  width: 50%;
+  margin-top: -13%;
+  font-family: 'Fredoka';
+  letter-spacing: 2px;
+  text-align: justify;
+ 
+}
+.pt2-left {
+  margin-top: -20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.pt2-left img {
+  animation: slidein 2s infinite;
+}
+
+#pt3 {
+  padding: 20px 30px;
+  display: flex;
+  
+}
+#hospital {
+  width: 70%;
+  border-radius: 50%;
+}
+#citação{
+  color: rgb(223, 225, 119);
+  font-family: 'Fredoka';
+  letter-spacing: 2px;
+  text-align: justify;
+}
+.pt3-rigth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.pt3-left {
+  color: rgb(255, 255, 255);
+  width: 50%;
+  font-family: 'Fredoka';
+  letter-spacing: 2px;
+}
+
+#pt4 {
+  padding: 20px 30px;
+  display: flex;
+}
+#FlorB {
+  width: 40%;
+}
+.pt4-rigth {
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  color: white;
+  font-family: 'Fredoka';
+  letter-spacing: 2px;
+  text-align: justify;
+  
+}
+.pt4-left {
+  width: 50%;
+  text-align: center;
+  display: flex;
+}
+  #FlorB{
+width: 70%;
+  }
+#FlorB_{
+  text-align: right;
+  width: 30%;
+}
+  
+#bee{
+  animation: bee 5s infinite;
+  margin-top: 15%;
+}
+#bee_{
+  width: 70%;
+  text-align: left;
+}
+
+footer {
+  background-color:#000000; 
+  margin-top: 0px;
+  padding: 30px 20px;
+  display: flex;
+  align-items: baseline;
+  color: white;
+}
+
+#copyright {
+  margin-right: 40px;
+  margin-top: 2%;
+
+}
+
+#copyright span {
+  text-align: end;
+}
+
+#address {
+  margin-top: 2%;
+  width: 70%;
+  text-align: right;
+}
+
+#container1 {
+  display: flex;
+  background-color: rgb(33, 48, 37);
+  background: linear-gradient(to bottom, rgb(33, 48, 37), #084618,);
+}
+.flortext{
+    color: rgb(37, 59, 48);
+    font-family: 'Fredoka';
+    letter-spacing: 2px;
+}
+
+.comprar{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'Alfa';
+}
+
+#flor1 {
+  background-color: rgb(173, 189, 173);
+  background-size: cover;
+  border-radius: 60%;
+  width: 33.3%;
+  margin: 5px;
+  text-align: center;
+}
+.flor1foto img {
+  width: 70%;
+  text-align: center;
+  margin: 10%;
+  margin-top: 17%;
+  border-radius: 1000px;
+}
+
+#flor2 {
+    background-color: rgb(173, 189, 173);
+    background-size: cover;
+    border-radius: 60%;
+    width: 33.3%;
+    margin: 5px;
+    text-align: center;
+}
+.flor2foto img {
+    width: 70%;
+    text-align: center;
+    margin: 10%;
+    margin-top: 17%;
+    border-radius: 1000px;
+}
+
+#flor3 {
+    background-color: rgb(173, 189, 173);
+    background-size: cover;
+    border-radius: 60%;
+    width: 33.3%;
+    margin: 5px;
+    text-align: center;
+}
+.flor3foto img {
+    width: 70%;
+    text-align: center;
+    margin: 10%;
+    margin-top: 17%;
+    border-radius: 1000px;
+}
+#container2 {
+  display: flex;
+  background-color: rgb(33, 48, 37);
+}
+
+#flor4 {
+    background-color: rgb(173, 189, 173);
+    background-size: cover;
+    border-radius: 60%;
+    width: 33.3%;
+    margin: 5px;
+    text-align: center;
+}
+.flor4foto img {
+    width: 70%;
+    text-align: center;
+    margin: 10%;
+    margin-top: 17%;
+    border-radius: 1000px;
+}
+
+#flor5 {
+    background-color: rgb(173, 189, 173);
+    background-size: cover;
+    border-radius: 60%;
+    width: 33.3%;
+    margin: 5px;
+    text-align: center;
+}
+.flor5foto img {
+    width: 70%;
+    text-align: center;
+    margin: 10%;
+    margin-top: 17%;
+    border-radius: 1000px;
+}
+
+#flor6 {
+    background-color: rgb(173, 189, 173);
+    background-size: cover;
+    border-radius: 60%;
+    width: 33.3%;
+    margin: 5px;
+    text-align: center;
+}
+
+.flor6foto img {
+    width: 70%;
+    text-align: center;
+    margin: 10%;
+    margin-top: 17%;
+    border-radius: 1000px;
+}
+#container3 {
+  display: flex;
+  background-color: rgb(33, 48, 37);
+  background: linear-gradient(to bottom, rgb(33, 48, 37), #000)
+}
+#flor7 {
+  background-color: rgb(173, 189, 173);
+  background-size: cover;
+  border-radius: 60%;
+  width: 33.3%;
+  margin: 5px;
+  text-align: center;
+}
+.flor7foto img {
+  width: 70%;
+  text-align: center;
+  margin: 10%;
+  margin-top: 17%;
+  border-radius: 1000px;
+}
+
+#flor8 {
+  background-color: rgb(173, 189, 173);
+  background-size: cover;
+  border-radius: 60%;
+  width: 33.3%;
+  margin: 5px;
+  text-align: center;
+}
+
+.flor8foto img {
+  width: 70%;
+  text-align: center;
+  margin: 10%;
+  margin-top: 17%;
+  border-radius: 1000px;
+}
+
+#flor9 {
+  background-color: rgb(173, 189, 173);
+  background-size: cover;
+  border-radius: 60%;
+  width: 33.3%;
+  margin: 5px;
+  text-align: center;
+}
+
+.flor9foto img {
+  width: 70%;
+  text-align: center;
+  margin: 10%;
+  margin-top: 17%;
+  border-radius: 1000px;
+}
